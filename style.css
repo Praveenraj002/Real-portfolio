@@ -166,12 +166,16 @@ a {
   color: aliceblue;
   text-align: center;
   background: #1e293b;
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .circle:hover {
-  border: 2px solid #79869a;
   cursor: pointer;
-  color: #3195ff;
+  color: #0b1a2d;
+  background-color: #3195ff;
+  transform: translateY(-0.5em);
 }
 
 .project-heading {
@@ -187,71 +191,81 @@ a {
   flex-direction: row;
   gap: 30px;
   flex-wrap: wrap;
+  margin-left: 30px;
 }
 
 .project-card {
   width: 300px;
-  height: 350px;
+  height: 300px;
   background-color: #1e293b;
   border-radius: 10px;
+  transition: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .project-card:hover {
-  box-shadow: 3px 3px 2px 2px #091525;
+  transform: translateY(-0.5em);
   cursor: pointer;
+}
+
+.project-container {
+  margin: 30px;
+  background-color: #1e293b;
 }
 
 .project-title {
   border-radius: 10px;
   background-color: #1e293b;
   color: aliceblue;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+  text-align: start;
+}
+
+.project-title:hover {
+  color: #3195ff;
+  cursor: pointer;
 }
 
 .project-description {
-  text-align: center;
+  text-align: start;
   background-color: #1e293b;
-  margin-left: 20px;
   margin-top: 20px;
   color: #79869a;
   font-weight: 500;
-  margin-right: 30px;
 }
 
 .project-btns {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 500px;
-  gap: 10px;
-  margin: 50px;
   background-color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.pro-btns {
-  color: aliceblue;
+.project-buttons {
   background-color: #3195ff;
+  color: aliceblue;
   border: none;
-  cursor: pointer;
   padding: 10px;
   border-radius: 5px;
-  margin-top: 10px;
   font-weight: 500;
-  font-size: 15px;
 }
 
-.pro-btns:hover{
+.project-buttons:hover {
   background-color: transparent;
-  border: 2px solid aliceblue;
+  border: solid 2px aliceblue;
+  cursor: pointer;
 }
 
-.visit-btn {
-  margin-top: 20px;
+.visit {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.a-project {
+  background-color: #1e293b;
 }
 
 .garbage {
