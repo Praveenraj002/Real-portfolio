@@ -150,7 +150,7 @@ a {
   margin-top: 25px;
 }
 
-.tech-stacks{
+.tech-stacks {
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -165,95 +165,80 @@ a {
   font-weight: 600;
   color: aliceblue;
   text-align: center;
-  background: #1E293B;
+  background: #1e293b;
 }
 
-.circle:hover{
+.circle:hover {
   border: 2px solid #79869a;
   cursor: pointer;
-  color:#3195ff;
+  color: #3195ff;
 }
 
-.project-heading{
+.project-heading {
   margin-top: 100px;
   color: aliceblue;
   font-size: 40px;
   font-weight: bolder;
 }
 
-.boxes{
+.project-cards {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
 }
 
-.project-box{
-  background-color: #1E293B;
-  box-shadow: 2px 2px 2px 2px #1E293B;
-  width: 250px;
-  height: 300px;
-  border-radius: 5px;
-  margin: 20px;
+.project-card {
+  width: 300px;
+  height: 350px;
+  background-color: #1e293b;
+  border-radius: 10px;
 }
 
-.icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 30px;
-  background-color: #1E293B;
-}
-
-.white{
-  color: aliceblue;
-}
-
-.project-title{
-  background-color: #1E293B;
-  color: aliceblue;
-  margin-left: 20px;
-  font-weight: 700;
-}
-
-.project-desc{
-  background-color: #1E293B;
-  color: #79869a;
-  margin-left: 20px;
-  margin-top: 20px;
-  font-size: medium;
-  font-weight: 500;
-}
-
-.project-title:hover{
-  color: #3195ff;
+.project-card:hover {
+  box-shadow: 3px 3px 2px 2px #091525;
   cursor: pointer;
 }
 
-.visit-btn{
-  background-color: #3195ff;
-  color: aliceblue;
-  padding: 10px;
-  border: none;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  font-size: medium;
-  margin-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+.project-title{
+ border-radius: 10px;
+ background-color: #1e293b;
+ color: aliceblue;
+ font-weight: 700;
+ font-size: 18px;
+ text-align: center;
+ margin-top: 30px;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 
-.visit-btn:hover{
-  border: solid 2px aliceblue;
-  background-color: transparent;
-}
-
-.visit-demo-btns{
-  background-color: #1E293B;
+.project-description{
   text-align: center;
-  justify-content: center;
+  background-color: #1e293b;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #79869a;
+  font-weight: 500;
+ margin-right: 30px;
 }
 
+.project-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 10px;
+  margin: 50px;
+  background-color: #1e293b;
+}
+
+.pro-btns{
+  color: aliceblue;
+  background-color: #3195ff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .garbage {
   height: 500px;
