@@ -171,6 +171,7 @@ a {
 .circle:hover{
   border: 2px solid #79869a;
   cursor: pointer;
+  color:#3195ff;
 }
 
 .project-heading{
